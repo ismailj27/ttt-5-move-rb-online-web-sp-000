@@ -10,4 +10,4 @@ puts "Where would you like to go?"
 position = gets.strip
 index = input_to_index(position)
 new_board = move(new_board, index, default_player)
-display_board(new_board)
+display_board(new_board, index)
