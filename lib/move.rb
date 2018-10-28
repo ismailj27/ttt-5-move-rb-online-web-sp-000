@@ -13,7 +13,6 @@ def input_to_index(position)
   position = position - 1
 end
 
-def move(new_board, index, default_player = )
-  default_player = "X"
+def move(new_board, index, default_player = "X")
   new_board[index] = default_player
 end
