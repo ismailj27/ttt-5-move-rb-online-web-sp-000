@@ -1,4 +1,3 @@
-new_board = [" "," "," "," "," "," "," "," "," "]
 
 def display_board(new_board)
   puts " #{new_board[0]} | #{new_board[1]} | #{new_board[2]} "
